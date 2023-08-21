@@ -181,7 +181,7 @@ namespace TypeChat
                 };
 
 
-                var result = await httpClient.PostAsync(url, new FormUrlEncodedContent(paramsDict));
+                var result = await httpClient.PostAsync("", new FormUrlEncodedContent(paramsDict));
 
                 if (result.IsSuccessStatusCode)
                 {
