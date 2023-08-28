@@ -2,5 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/src/TypeChat.CSharp/.vs
+*/.vs
+*/obj
+/example/Calendar/obj
 /src/TypeChat.CSharp/obj
+~/.vs
+/.vs
+/src/TypeChat.CSharp/.vs
