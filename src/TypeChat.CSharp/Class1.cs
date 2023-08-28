@@ -117,7 +117,7 @@ namespace TypeChat
             $"You are a service that translates user requests into JSON objects of type \"{nameof(T)}\" according to the following TypeScript definitions:\n" +
             $"```\n{Schema}\n```\n" +
             $"The following is a user request:\n" +
-            $"\"\"\"\n{Request}\n\"\"\"\n" +
+            $"\"\"\"\n{request}\n\"\"\"\n" +
             $"The following is the user request translated into a JSON object with 2 spaces of indentation and no properties with the value undefined:\n";
 
         public async Task<Result<T>> Translate(HttpClient httpClient, string request)
